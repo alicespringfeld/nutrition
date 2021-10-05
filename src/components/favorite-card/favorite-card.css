@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+
+.favorite-card {
+  background-color: #fff2f0;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  font-family: Signika;
+  font-size: 17px;
+}
+.favorite-card svg {
+  padding-bottom: 12px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
