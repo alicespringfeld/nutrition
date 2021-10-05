@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+
+.favorite-card {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 32px;
+  row-gap: 1rem;
+  font-family: Signika;
+  font-size: 17px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.favorite-card__fruits {
+  background-color: #fff2f0;
+  color: #4d0a00;
+}
+.favorite-card__vegetables {
+  background-color: #eff7ee;
+  color: #1c3418;
+}
+.favorite-card__snacks {
+  background-color: #fff8eb;
+  color: #4d3200;
+}
