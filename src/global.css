@@ -15,6 +15,8 @@
   --color-mealselection: #eff7ee;
   --color-navbar: #0000;
   --color-secondary-text: #a1a1a1;
+  --color-inactive: #fff8ee;
+  --color-contrast: #fff;
 }
 
 html {
