@@ -1,0 +1,23 @@
+.tabs-example {
+  display: grid;
+  gap: 1em;
+  width: 500 px;
+}
+
+.selectButton {
+  background-color: var(--color-inactive);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  column-gap: 0;
+  overflow: hidden;
+  width: 360px;
+  text-align: center;
+}
+.option {
+  padding: 1em;
+}
+.option--active {
+  background-color: var(--color-secondary);
+  color: var(--color-contrast);
+}
