@@ -8,7 +8,7 @@
   background-color: var(--color-inactive);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-radius: 2rem;
+  border-radius: 1rem;
   column-gap: 0;
   overflow: hidden;
   width: 360px;
