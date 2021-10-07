@@ -1,5 +1,25 @@
 .avatar {
+  position: relative;
+  width: 2em;
+  height: 3em;
+  top: 1em;
+}
+.avatar_image {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 10rem;
+  width: 10rem;
+}
+
+.avatar_icon {
+  position: absolute;
+  background-color: var(--color-secondary-shade);
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  place-items: center;
+  top: 8em;
+  left: 7em;
+  border-width: 2em;
+  outline: solid white;
 }
